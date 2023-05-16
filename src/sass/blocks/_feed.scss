@@ -1,4 +1,5 @@
 .feed {
+    background-color: #000;
     padding: 70px 0 71px 0;
     &__item {
         display: flex;
@@ -18,17 +19,17 @@
         padding-right: 60px;
     }
     &__subtitle {
-        color: #0d0d0d;
+        color: #fff;
         font-size: 18px;
         font-weight: 700;
     }
     &__count {
-        color: #646464;
+        color: #fff;
         font-size: 14px;
         font-weight: 500;
     }
-    &__descr {
-        color: #0d0d0d;
+    &_descr {
+        color: #fff;
         font-size: 16px;
         font-weight: 300;
         margin-top: 10px;

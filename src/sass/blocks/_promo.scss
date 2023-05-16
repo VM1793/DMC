@@ -1,10 +1,10 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    // background: url(../img/bg1.jpg) center (center/cover) no-repeat;
+    background-color: #000;
     &__wrapper {
         display: grid;
-        grid-template-columns: 400px 740px;
+        grid-template-columns: 740px 400px;
         grid-template-rows: 45px 40px 65px 250px;
         justify-content: center;
         // flex-direction: column;
@@ -15,6 +15,7 @@
         height: 400px;
         width: 263px;
         grid-row: 1 / 5;
+        grid-column: 2 / 3;
         img {
             max-width: 100%;
         }
@@ -24,8 +25,8 @@
         font-size: 42px;
         line-height: 42px;
         text-transform: uppercase;
-        color: #000;
-        justify-self: end;
+        color: #fff;
+
     }
     &__subheader {
         margin-top: 17px;
@@ -33,15 +34,15 @@
         font-size: 24px;
         line-height: 24px;
         text-transform: uppercase;
-        color: #000;
-        justify-self: end;
+        color: #fff;
+
     }
     &__icons {
         margin-top: 65px;
         width: 425px;
         display: flex;
         justify-content: space-between;
-        justify-self: end;
+
     }
     &__icon {
         width: 108px;
@@ -49,7 +50,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 14px;
-        color: #000;
+        color: #fff;
         img {
             display: block;
             margin: 0 auto;
@@ -60,9 +61,9 @@
         margin-top: 18px;
         font-weight: 500;
         font-size: 16px;
-        color: #000;
+        color: #fff;
         a {
-            color: #000;
+            color: #fff;
             text-decoration-line: underline;
             text-transform: uppercase;
         }
